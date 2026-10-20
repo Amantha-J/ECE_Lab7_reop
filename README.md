@@ -33,9 +33,7 @@ with another cycle of adders, using more resources and taking more time.
 
 ### 3 - What is the edge case and problem with Two’s Complement number representation?
 The edge cases with Two's Complement is from -2^(n-1) to (2^(n-1))-1 where n is the number of bits being used. 
-The problem with Two's Complement number representation is i have no clue. it a converter so there's more work after adding numbers together??
-
-
+The problem with Two's Complement number representation is that when exceeding those bounds your number will over or under flow causing incorrect conversion. 
 
 
 
